@@ -2,11 +2,11 @@
     let[
         main,
         settings,
-        dom,
+        {dom},
     ]=await Promise.all([
         module.styleByPath('plugins/althea-anlitings-style/style.css'),
         module.styleByPath('plugins/althea-anlitings-style/settings.css'),
-        module.repository.althea.dom,
+        module.moduleByPath('/lib/core.static.js'),
     ])
     dom(document.head,main,settings)
 })()
