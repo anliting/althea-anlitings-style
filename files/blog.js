@@ -1,6 +1,6 @@
 let root='plugins/althea-anlitings-style'
 import{dom,moduleLoader}from'/lib/core.static.js'
-export default async()=>{
+export default async blog=>{
     let
         module=await moduleLoader()
     module.getByPath(`${root}/style.css`).then(s=>

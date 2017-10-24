@@ -1,1 +1,1 @@
-/plugins/althea-anlitings-style/settings.js
+/plugins/althea-anlitings-style/blog.js
