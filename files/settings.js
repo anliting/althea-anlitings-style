@@ -1,4 +1,4 @@
-let root='plugins/althea-anlitings-style'
+let root='plugins/anlitings-style'
 import{dom,moduleLoader}from'/lib/core.static.js'
 export default async()=>{
     let
