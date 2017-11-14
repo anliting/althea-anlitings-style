@@ -1,8 +1,8 @@
 let root='plugins/anlitings-style'
-import{dom,moduleLoader}from'/lib/core.static.js'
+import{dom,load}from'/lib/core.static.js'
 export default async()=>{
     let
-        module=await moduleLoader(),
+        module=await load.module(),
         [
             main,
             settings,

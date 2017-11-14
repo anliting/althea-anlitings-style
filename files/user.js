@@ -1,7 +1,7 @@
-import{dom,moduleLoader}from'/lib/core.static.js'
+import{dom,load}from'/lib/core.static.js'
 export default async()=>{
     let
-        module=await moduleLoader()
+        module=await load.module()
     module.styleByPath('plugins/anlitings-style/a.css').then(main=>
         document.head.appendChild(main)
     )
