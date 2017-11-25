@@ -1,9 +1,7 @@
 module.exports=althea=>{
     althea.setClientModules({
-        blog:'blog.js',
-        edituser:'edituser.js',
-        settings:'settings.js',
-        editpage:'editpage.js',
-        user:'user.js',
+        edituser:   'edituser.static.js',
+        settings:   'settings.static.js',
+        user:       'user.static.js',
     })
 }

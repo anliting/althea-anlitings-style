@@ -1,12 +1,6 @@
-import{dom,load}from'/lib/core.static.js'
-export default async()=>{
-    let
-        module=await load.module()
-    module.styleByPath('plugins/anlitings-style/a.css').then(main=>
-        document.head.appendChild(main)
-    )
-    module.styleByPath('plugins/anlitings-style/main.css').then(main=>
-        document.head.appendChild(main)
-    )
+import{dom}from'/lib/core.static.js'
+import aStyle from'./user/aStyle.js'
+import mainStyle from'./user/mainStyle.js'
+export default()=>{
+    dom.head(dom.style(aStyle,mainStyle))
 }
-
