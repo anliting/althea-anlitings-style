@@ -1,4 +1,4 @@
-module.exports=althea=>{
+export default althea=>{
     althea.setClientModules({
         edituser:   'edituser.static.js',
         settings:   'settings.static.js',
