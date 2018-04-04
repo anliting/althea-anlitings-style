@@ -7,7 +7,7 @@ body{
 #div_menu{
     vertical-align:top;
 }
-`;
+`
 
 var style = `
 /*
@@ -31,10 +31,10 @@ table.padding4px td{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-`;
+`
 
 var settings = ()=>{
     dom.head(dom.style(style,settingsStyle));
-};
+}
 
 export default settings;

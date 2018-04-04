@@ -22,9 +22,9 @@ table.padding4px td{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-`;
+`
 
 var edituser = ()=>
-    dom.head(dom.style(style));
+    dom.head(dom.style(style))
 
 export default edituser;
