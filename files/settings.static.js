@@ -1,4 +1,4 @@
-import { dom } from '/lib/core.static.js';
+import { doe } from '/lib/core.static.js';
 
 var settingsStyle = `
 body{
@@ -34,7 +34,7 @@ a:active,a:link,a:hover,a:visited{
 `
 
 var settings = ()=>{
-    dom.head(dom.style(style,settingsStyle));
+    doe.head(doe.style(style,settingsStyle));
 }
 
 export default settings;

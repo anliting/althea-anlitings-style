@@ -1,4 +1,4 @@
-import { dom } from '/lib/core.static.js';
+import { doe } from '/lib/core.static.js';
 
 var style = `
 /*
@@ -25,6 +25,6 @@ a:active,a:link,a:hover,a:visited{
 `
 
 var edituser = ()=>
-    dom.head(dom.style(style))
+    doe.head(doe.style(style))
 
 export default edituser;
